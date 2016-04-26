@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gabriel.killapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".FirstActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Luna" />
+        <activity android:name=".Chiste" />
+        <activity android:name=".Brujula" />
+        <activity android:name=".Astronauta" />
+        <activity android:name=".Comic0" />
+        <activity android:name=".Comic1" />
+        <activity android:name=".Comic2" />
+        <activity android:name=".FinLuna" />
+        <activity android:name=".Marte" />
+        <activity android:name=".Imagen1" />
+        <activity android:name=".Imagen2" />
+        <activity android:name=".Imagen3" />
+        <activity android:name=".Crater" />
+
+        <activity android:name=".MainActivity" />
+
+
+        <activity android:name=".caraLuna"></activity>
+    </application>
+
+</manifest>

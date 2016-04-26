@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.gabriel.killapp.Brujula"
+    android:background="#000000">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:id="@+id/imageView14"
+        android:src="@mipmap/luna3"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/button3"
+        android:background="@mipmap/bandera"
+        android:textColor="#ffffff"
+        android:onClick="Astronauta"
+        android:layout_alignTop="@+id/imageView36"
+        android:layout_alignStart="@+id/imageView14" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/imageView35"
+        android:src="@mipmap/crater"
+        android:onClick="Crater"
+        android:layout_alignTop="@+id/button3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="190dp"
+        android:id="@+id/imageView36"
+        android:src="@mipmap/caraluna"
+        android:onClick="caralu"
+        android:layout_alignTop="@+id/imageView14"
+        android:layout_alignEnd="@+id/imageView14"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="87dp" />
+
+</RelativeLayout>

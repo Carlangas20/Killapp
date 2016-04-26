@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.gabriel.killapp.FirstActivity"
+    android:background="#010000">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:id="@+id/imageView"
+        android:layout_alignParentStart="true"
+        android:src="@mipmap/astronauta1" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:id="@+id/imageView2"
+        android:src="@mipmap/luna"
+        android:layout_alignTop="@+id/imageView6"
+        android:layout_alignStart="@+id/imageView4"
+        android:onClick="Luna"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:id="@+id/imageView3"
+        android:src="@mipmap/sol"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:id="@+id/imageView4"
+        android:src="@mipmap/mercurio"
+        android:layout_alignBottom="@+id/imageView3"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:id="@+id/imageView5"
+        android:src="@mipmap/venus"
+        android:layout_alignTop="@+id/imageView4"
+        android:layout_alignStart="@+id/imageView7" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:id="@+id/imageView6"
+        android:src="@mipmap/tierra"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:id="@+id/imageView7"
+        android:src="@mipmap/marte"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_alignStart="@+id/imageView10" />
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView8"
+        android:src="@mipmap/jupiter"
+        android:layout_below="@+id/imageView6"
+        android:layout_alignEnd="@+id/imageView6" />
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="90dp"
+        android:id="@+id/imageView9"
+        android:src="@mipmap/saturno"
+        android:layout_alignBottom="@+id/imageView8"
+        android:layout_alignEnd="@+id/imageView2" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:id="@+id/imageView10"
+        android:src="@mipmap/urano1"
+        android:layout_alignTop="@+id/imageView9"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView11"
+        android:src="@mipmap/neptuno"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/imageView8" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sol"
+        android:id="@+id/textView"
+        android:background="#000000"
+        android:autoText="true"
+        android:backgroundTint="#000000"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/imageView3"
+        android:layout_alignEnd="@+id/imageView3"
+        android:layout_marginEnd="37dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mercurio"
+        android:id="@+id/textView2"
+        android:background="#000000"
+        android:autoText="true"
+        android:backgroundTint="#000000"
+        android:textColor="#ffffff"
+        android:layout_above="@+id/imageView2"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Venus"
+        android:id="@+id/textView3"
+        android:background="#000000"
+        android:autoText="true"
+        android:backgroundTint="#000000"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/imageView5"
+        android:layout_alignStart="@+id/imageView5"
+        android:layout_marginStart="29dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tierra"
+        android:id="@+id/textView4"
+        android:background="#000000"
+        android:autoText="true"
+        android:backgroundTint="#000000"
+        android:textColor="#ffffff"
+        android:layout_above="@+id/imageView9"
+        android:layout_alignEnd="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Luna"
+        android:id="@+id/textView5"
+        android:background="#000000"
+        android:autoText="true"
+        android:backgroundTint="#000000"
+        android:textColor="#ffffff"
+        android:layout_alignTop="@+id/textView4"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Marte"
+        android:id="@+id/textView6"
+        android:background="#000000"
+        android:autoText="true"
+        android:backgroundTint="#000000"
+        android:textColor="#ffffff"
+        android:layout_above="@+id/imageView10"
+        android:layout_alignStart="@+id/textView3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jupiter"
+        android:id="@+id/textView7"
+        android:background="#000000"
+        android:autoText="true"
+        android:backgroundTint="#000000"
+        android:textColor="#ffffff"
+        android:layout_alignTop="@+id/imageView11"
+        android:layout_alignStart="@+id/textView4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saturno"
+        android:id="@+id/textView8"
+        android:background="#000000"
+        android:autoText="true"
+        android:backgroundTint="#000000"
+        android:textColor="#ffffff"
+        android:layout_alignTop="@+id/imageView11"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Urano"
+        android:id="@+id/textView9"
+        android:background="#000000"
+        android:autoText="true"
+        android:backgroundTint="#000000"
+        android:textColor="#ffffff"
+        android:layout_alignTop="@+id/textView8"
+        android:layout_alignEnd="@+id/textView3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Neptuno"
+        android:id="@+id/textView10"
+        android:background="#000000"
+        android:autoText="true"
+        android:backgroundTint="#000000"
+        android:textColor="#ffffff"
+        android:layout_alignBottom="@+id/imageView11"
+        android:layout_alignStart="@+id/textView7" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Este es el sistema solar, nosotros vivimos en un planeta llamado Tierra,tenemos un satélite natural llamado Luna, ¿ Sabes dónde está la Luna?"
+        android:id="@+id/textView11"
+        android:textColor="#ffffff"
+        android:layout_alignEnd="@+id/imageView5"
+        android:layout_toEndOf="@+id/imageView"
+        android:textSize="14dp"
+        android:layout_above="@+id/imageView3" />
+
+</RelativeLayout>
